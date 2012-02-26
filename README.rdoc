@@ -1,3 +1,11 @@
 = ntlm_authorize
 
-Description goes here
+Plugin for enable NTLM authorization at Redmine
+
+== Installation
+
+* configure ntlm_auth_key at init.rb file
+* run rake db:migrate_plugins
+* configure apache for NTML authorization as describe at: http://www.redmine.org/boards/2/topics/127#message-931
+
+
